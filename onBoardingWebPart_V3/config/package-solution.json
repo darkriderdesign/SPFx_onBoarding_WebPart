@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "on-boarding-web-part-v-3-client-side-solution",
+    "id": "9b03f8b5-4947-4fca-9b75-7f1b98958c21",
+    "version": "5.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/on-boarding-web-part-v-3.sppkg"
+  }
+}

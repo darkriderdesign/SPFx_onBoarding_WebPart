@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/onBoardingWebpartV3/OnBoardingWebpartV3WebPart.js",
+      "manifest": "./src/webparts/onBoardingWebpartV3/OnBoardingWebpartV3WebPart.manifest.json",
+      "outputPath": "./dist/on-boarding-webpart-v-3.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "onBoardingWebpartV3Strings": "webparts/onBoardingWebpartV3/loc/{locale}.js"
+  }
+}

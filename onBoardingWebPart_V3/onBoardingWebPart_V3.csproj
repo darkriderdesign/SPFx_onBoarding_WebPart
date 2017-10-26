@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C8BF1B4-E9DE-4C0C-9213-D44FA2E8CC3A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>onBoardingWebPart_V3</RootNamespace>
+    <AssemblyName>onBoardingWebPart_V3</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Windows\System32\cmd.exe</StartProgram>
+    <StartArguments>/K  gulp serve</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Windows\System32\cmd.exe</StartProgram>
+    <StartArguments>/K  gulp serve</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Windows\System32\cmd.exe</StartProgram>
+    <StartArguments>/K  gulp serve</StartArguments>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+    <None Include=".npmignore" />
+    <None Include=".yo-rc.json" />
+    <None Include="config\config.json" />
+    <None Include="config\copy-assets.json" />
+    <None Include="config\deploy-azure-storage.json" />
+    <None Include="config\package-solution.json" />
+    <None Include="config\serve.json" />
+    <None Include="config\tslint.json" />
+    <None Include="config\write-manifests.json" />
+    <None Include="generator.log" />
+    <None Include="package-lock.json" />
+    <None Include="package.json" />
+    <None Include="README.md" />
+    <None Include="src\webparts\onBoardingWebpartV3\components\OnBoardingWebpartV3.module.scss" />
+    <None Include="src\webparts\onBoardingWebpartV3\OnBoardingWebpartV3WebPart.manifest.json" />
+    <None Include="tsconfig.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="gulpfile.js" />
+    <Content Include="src\webparts\onBoardingWebpartV3\img\onBoardingStage.svg" />
+    <Content Include="src\webparts\onBoardingWebpartV3\loc\en-us.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\webparts\onBoardingWebpartV3\components\HeaderGraphic.tsx" />
+    <TypeScriptCompile Include="src\webparts\onBoardingWebpartV3\components\IHeaderGraphic.ts" />
+    <TypeScriptCompile Include="src\webparts\onBoardingWebpartV3\components\IOnBoardingWebpartV3Props.ts" />
+    <TypeScriptCompile Include="src\webparts\onBoardingWebpartV3\components\OnBoardingWebpartV3.tsx" />
+    <TypeScriptCompile Include="src\webparts\onBoardingWebpartV3\IOnBoardingWebpartV3WebPartProps.ts" />
+    <TypeScriptCompile Include="src\webparts\onBoardingWebpartV3\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\onBoardingWebpartV3\OnBoardingWebpartV3WebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\onBoardingWebpartV3\tests\OnBoardingWebpartV3.test.ts" />
+    <TypeScriptCompile Include="typings\%40ms\odsp.d.ts" />
+    <TypeScriptCompile Include="typings\tsd.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

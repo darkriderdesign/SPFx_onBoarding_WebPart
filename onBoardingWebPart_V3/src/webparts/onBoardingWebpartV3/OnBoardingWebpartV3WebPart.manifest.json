@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "51b88774-b46a-4908-9bfa-18c527b80cc1",
+  "alias": "OnBoardingWebpartV3WebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [
+    {
+      "groupId": "51b88774-b46a-4908-9bfa-18c527b80cc1",
+      "group": { "default": "Under Development" },
+      "title": { "default": "onBoardingWebpartV3" },
+      "description": { "default": "onBoarding Webpart for New Employees" },
+      "officeFabricIconFontName": "Teamwork",
+      "properties": {
+        "description": "onBoardingWebpartV3"
+      }
+    }
+  ]
+}

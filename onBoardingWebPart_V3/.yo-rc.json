@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "on-boarding-web-part-v-3",
+    "framework": "react",
+    "version": "1.0.2",
+    "libraryId": "9b03f8b5-4947-4fca-9b75-7f1b98958c21"
+  }
+}
